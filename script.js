@@ -14,7 +14,7 @@ function resetName() {
 
 function clearPhone() {
   if (
-    document.getElementById("phoneField").value == "example: 212-123-1234"
+    document.getElementById("phoneField").value == "Example: 999-999-9999"
   ) {
     document.getElementById("phoneField").value = "";
   }
@@ -24,13 +24,13 @@ function resetPhone() {
   if (
     document.getElementById("phoneField").value == ""
   ) {
-    document.getElementById("phoneField").value = "example: 212-123-1234";
+    document.getElementById("phoneField").value = "Example: 999-999-9999";
   }
 }
 
 function clearWeb() {
   if (
-    document.getElementById("webField").value == "Web Design"
+    document.getElementById("webField").value == "ethanmarioman@wahoo.com"
   ) {
     document.getElementById("webField").value = "";
   }
@@ -40,10 +40,10 @@ function resetWeb() {
   if (
     document.getElementById("webField").value == ""
   ) {
-    document.getElementById("webField").value = "Web Design";
+    document.getElementById("webField").value = "ethanmarioman@wahoo.com";
   }
 }
 
-function alertThanks() {
+function alertSignUp() {
   alert('Thank you for the info');
 }

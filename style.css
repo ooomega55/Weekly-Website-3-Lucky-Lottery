@@ -1,4 +1,101 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-image: linear-gradient(gold, green, lightgreen); 
+}
+
+.fillbox{
+  margin-top: 5px;
+  padding: 0 0px 5px 50px;
+  border: 1px solid #121697;
+}
+
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	background: #efefef;
+	border: 1px solid #bbb;
+	width: 97%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.signupbtn {
+  background-color: lime;
+  font-family: impact;
+}
+
+.signupbtn:hover {
+  background-color: cyan;
+  font-family: impact;
+  font-size: 30px;
+}
+
+.signuppadding{
+  padding: 5px;
+}
+
+.llbg{
+  background-image: linear-gradient(mediumspringgreen, limegreen, mediumseagreen);
+}
+
+.formstyle{
+  font-size: 40px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+.labelstyle{
+  font-size: 30px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+/*Image animation fix needed*/
+.hover15 figure {
+  position: relative;
+}
+.hover15 figure::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.hover15 figure:hover::before {
+  -webkit-animation: circle .75s;
+  animation: circle .75s;
+}
+@-webkit-keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 130%;
+    height: 130%;
+    opacity: 0;
+  }
+}
+@keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 130%;
+    height: 130%;
+    opacity: 0;
+  }
 }
