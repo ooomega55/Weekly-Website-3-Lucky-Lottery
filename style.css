@@ -2,6 +2,34 @@ body {
   background-image: linear-gradient(gold, green, lightgreen); 
 }
 
+li {
+  font-size: 20px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+.instructions{
+  font-size: 35px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+.prizes{
+  font-size: 30px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+.petrock{
+  font-size: 35px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+.petrockshadow{
+  text-shadow: 2px 2px 2px gold;
+}
+
 .fillbox{
   margin-top: 5px;
   padding: 0 0px 5px 50px;
@@ -50,7 +78,17 @@ body {
   color: darkgreen;
 }
 
-/*Image animation fix needed*/
+.nocheating {
+  font-size: 25px;
+  font-family: cochin;
+  color: darkgreen;
+}
+
+.prizeopacity{
+  opacity: 0.2;
+}
+
+/*Image animation*/
 .hover15 figure {
   position: relative;
 }
