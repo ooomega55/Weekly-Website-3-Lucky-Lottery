@@ -8,6 +8,12 @@ li {
   color: darkgreen;
 }
 
+.threeimgstyle:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, teal, navy) 1;
+  cursor: pointer;
+}
+
 .instructions{
   font-size: 35px;
   font-family: cochin;
@@ -40,8 +46,8 @@ li {
 	font-family: "Courier New", Courier, monospace;
 	font-size: 14px;
 	padding: 7px;
-	background: #efefef;
-	border: 1px solid #bbb;
+	background: lightgreen;
+	border: 1px solid green;
 	width: 97%;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -50,6 +56,7 @@ li {
 .signupbtn {
   background-color: lime;
   font-family: impact;
+  border-color: green;
 }
 
 .signupbtn:hover {
@@ -101,7 +108,7 @@ li {
   content: '';
   width: 0;
   height: 0;
-  background: rgba(255,255,255,.2);
+  background: rgba(120,255,0,.2);
   border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
